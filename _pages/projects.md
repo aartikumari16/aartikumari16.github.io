@@ -5,18 +5,22 @@ permalink: /projects/
 author_profile: true
 ---
 
-Below is an auto‑generated list of my public GitHub repositories.  
-*It updates each time I push a new project.*
+Here are my public GitHub projects. This list updates automatically.
+
+---
 
 <ul>
-{%- for repo in site.github.public_repositories -%}
-  {%- unless repo.name == site.github.repository_nwo %}   {# skip the portfolio repo itself #}
-  <li>
-    <a href="{{ repo.html_url }}">{{ repo.name }}</a>
-    – {{ repo.description }}
-    <br/>
-    <small>⭐ {{ repo.stargazers_count }} · {{ repo.language }}</small>
-  </li>
+{%- assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse -%}
+{%- for repo in repos -%}
+  {%- unless repo.name == site.github.repository_nwo -%}
+    <li style="margin-bottom: 1rem;">
+      <strong><a href="{{ repo.html_url }}">{{ repo.name }}</a></strong>  
+      <br />
+      {{ repo.description }}
+      <br />
+      ⭐ <strong>{{ repo.stargazers_count }}</strong> &nbsp;•&nbsp;
+      {{ repo.language }}
+    </li>
   {%- endunless -%}
 {%- endfor -%}
 </ul>
