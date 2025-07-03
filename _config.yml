@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Aarti Kumari"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Welcome to my AIML portfolio. Here, I bring together my passion for Artificial Intelligence and Machine Learning.
+  bio    : "Welcome to my AIML portfolio. Here, I bring together my passion for Artificial Intelligence and Machine Learning."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -70,7 +70,7 @@ footer:
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/aartikumari16"
     - label: "Instagram"
       icon: "fas fa-briefcase"
       url: "https://www.fiverr.com/aartikumari16"
