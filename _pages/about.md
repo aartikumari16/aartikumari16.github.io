@@ -1,15 +1,17 @@
 ---
+layout: single
 permalink: /about/
 title: "About"
+author_profile: true
 ---
 
 Welcome to my AIML portfolio. Here, I bring together my passion for artificial intelligence and machine learning. It's a platform where I showcase my projects, share my journey, and explore the endless possibilities of AI and ML.
 
-I love building:
+### I love building:
 - Machine learning models
 - End-to-end data science workflows
 
-Tools I use:
+### Tools I use:
 - Python, Pandas, scikit-learn, Matplotlib
 - Streamlit, Jupyter Notebooks
 
