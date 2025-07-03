@@ -1,0 +1,4 @@
+- name: Sales Forecasting for Retail Stores
+  url:  https://github.com/aartikumari16/sales-forecating-for-retail-stores
+  desc: This project focuses on building a machine learning pipeline to forecast item-level sales across retail stores using historical transaction data. It combines multiple data sources (item details, prices, kcal values, store metadata) to construct a unified dataset. The goal is to support data-driven decision-making in inventory planning and demand forecasting.
+  stars: false   # show star count if true
