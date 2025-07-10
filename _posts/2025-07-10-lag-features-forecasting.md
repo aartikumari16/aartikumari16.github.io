@@ -1,6 +1,6 @@
 ---
 title: "My Forecast Was Wrong — Until I Added Lag Features"
-date: 2024-06-24
+date: 2025-07-10
 author: Aarti Kumari
 categories: [Time Series, Forecasting]
 tags: [lag features, machine learning, forecasting, sales, rolling average]
