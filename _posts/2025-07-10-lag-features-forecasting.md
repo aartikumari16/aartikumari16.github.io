@@ -4,6 +4,7 @@ date: 2025-07-10
 author: Aarti Kumari
 categories: [Time Series, Forecasting]
 tags: [lag features, machine learning, forecasting, sales, rolling average]
+permalink: /lag-features-forecasting/
 read_time: true
 ---
 
