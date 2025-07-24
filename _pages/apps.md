@@ -59,8 +59,8 @@ Below are some of the apps I’ve built using Streamlit and Machine Learning. Cl
   </div>
 
   <div class="app-card">
-    <img src="/assets/images/eda.png" alt="Brain MRI Image Classifier">
-    <h3>Auto EDA Tool</h3>
+    <img src="/assets/images/brain-mri.jpg" alt="Brain MRI Image Classifier">
+    <h3>Brain MRI Image Classifier</h3>
     <p>Upload a Brain MRI Image and get it classified according to Tumour Type.</p>
     <a href="https://huggingface.co/spaces/aartikumari16/mri-brain-tumour-image-classifier" target="_blank">View App</a>
   </div>
