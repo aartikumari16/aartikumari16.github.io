@@ -52,7 +52,7 @@ Below are some of the apps I’ve built using Streamlit and Machine Learning. Cl
 <div class="app-grid">
 
   <div class="app-card">
-    <img src="https://via.placeholder.com/300x150.png?text=Auto+EDA+Tool" alt="Auto EDA App">
+    <img src="/assets/images/eda.png" alt="Auto EDA App">
     <h3>Auto EDA Tool</h3>
     <p>Upload your dataset and get a full exploratory analysis.</p>
     <a href="https://auto-eda-app.streamlit.app/" target="_blank">View App</a>
