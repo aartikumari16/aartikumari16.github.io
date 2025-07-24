@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: splash
 title: "My Apps"
 permalink: /apps/
 author_profile: true
