@@ -96,8 +96,8 @@ defaults:
       layout: single
       author_profile: true
       
-   # assets/images
-   - scope:
+  # assets/images
+  - scope:
       path: "assets/images"
     values:
       image: true
