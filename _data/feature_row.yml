@@ -3,7 +3,7 @@ app_gallery:
     alt: "Auto EDA"
     title: "Auto EDA Dashboard"
     excerpt: "Upload a CSV and get auto-generated insights and visualizations."
-    url: "https://aarti-eda-dashboard.streamlit.app"
+    url: "https://auto-eda-app.streamlit.app/"
     btn_label: "Open App"
     btn_class: "btn--primary"
 
