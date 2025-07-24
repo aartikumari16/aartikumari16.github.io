@@ -95,6 +95,12 @@ defaults:
     values:
       layout: single
       author_profile: true
+      
+   # assets/images
+   - scope:
+      path: "assets/images"
+    values:
+      image: true
 
 category_archive:
   type: liquid
