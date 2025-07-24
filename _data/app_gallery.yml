@@ -1,0 +1,7 @@
+- image_path: https://via.placeholder.com/300x150.png?text=Test+App
+  alt: "Placeholder App"
+  title: "Test App"
+  excerpt: "This is a test card to check feature_row display."
+  url: "https://example.com"
+  btn_label: "Visit"
+  btn_class: "btn--primary"
