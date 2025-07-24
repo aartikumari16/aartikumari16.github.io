@@ -1,0 +1,24 @@
+app_gallery:
+  - image_path: /assets/images/eda.png
+    alt: "Auto EDA"
+    title: "Auto EDA Dashboard"
+    excerpt: "Upload a CSV and get auto-generated insights and visualizations."
+    url: "https://aarti-eda-dashboard.streamlit.app"
+    btn_label: "Open App"
+    btn_class: "btn--primary"
+
+  # - image_path: /assets/images/sales.png
+  #   alt: "Sales Forecast"
+  #   title: "Sales Forecasting App"
+  #   excerpt: "Forecast restaurant sales using ML models like XGBoost and RF."
+  #   url: "https://your-sales-app-link.com"
+  #   btn_label: "Try It"
+  #   btn_class: "btn--primary"
+
+  # - image_path: /assets/images/fitbit.png
+  #   alt: "Fitbit Dashboard"
+  #   title: "Fitbit Analytics"
+  #   excerpt: "Explore health and fitness trends with interactive dashboards."
+  #   url: "https://your-fitbit-link.com"
+  #   btn_label: "Launch"
+  #   btn_class: "btn--primary"
