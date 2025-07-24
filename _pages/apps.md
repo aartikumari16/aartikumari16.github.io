@@ -57,4 +57,5 @@ permalink: /apps/
   <a class="app-link" href="https://aarti-eda-dashboard.streamlit.app" target="_blank">Launch App</a>
 </div>
 
+
 </div>
