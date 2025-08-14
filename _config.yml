@@ -68,7 +68,7 @@ author:
       url: "https://www.fiverr.com/aartikumari16"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/aartikumari16" 
+      url: "https://www.linkedin.com/in/aartikumari16/" 
 
 footer:
   links:
@@ -80,7 +80,7 @@ footer:
       url: "https://www.fiverr.com/aartikumari16"
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "www.linkedin.com/in/aartikumari16"  
+      url: "https://www.linkedin.com/in/aartikumari16/"  
 
 defaults:
   # _posts
