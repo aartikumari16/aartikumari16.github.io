@@ -66,6 +66,9 @@ author:
     - label: "Fiverr"
       icon: "fas fa-briefcase"
       url: "https://www.fiverr.com/aartikumari16"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "www.linkedin.com/in/aartikumari16" 
 
 footer:
   links:
