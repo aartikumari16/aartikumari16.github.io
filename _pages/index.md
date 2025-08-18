@@ -2,7 +2,9 @@
 layout: home
 title: "Home"
 author_profile: true
+permalink: /
 ---
+
 
 # Welcome to My Portfolio 🎉
 
