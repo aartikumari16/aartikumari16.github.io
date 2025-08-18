@@ -1,0 +1,23 @@
+# _data/features.yml
+
+# Section 1: Projects
+- title: "Projects"
+  items:
+
+    - title: "Brain Tumor Classification"
+      description: "Deep learning model that classifies brain tumor MRI scans with 92% accuracy."
+      url: "/projects/brain-tumor-classification"
+      btn_label: "View Project"
+
+    - title: "Auto EDA Dashboard"
+      description: "Automated Exploratory Data Analysis tool with NLP-based preprocessing."
+      url: "/projects/auto-eda"
+      btn_label: "View Project"
+      
+# Section 2: Recent Posts
+- title: "Recent Posts"
+  items:
+    - title: "My Forecast Was Wrong — Until I Added Lag Features"
+      description: "When I first started building a sales forecasting model, I focused heavily on choosing the “best” machine learning algorithm."
+      url: "/lag-features-forecasting/"
+      btn_label: "Read Post"
