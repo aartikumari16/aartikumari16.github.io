@@ -17,15 +17,7 @@ Here’s a selection of my projects, articles, and experiments.
 
 ---
 
-{% for section in site.data.features %}
-  <h2>{{ section.title }}</h2>
-  <div class="feature-cards">
-    {% for item in section.items %}
-      <div class="card">
-        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
-        <p>{{ item.description }}</p>
-        <a href="{{ item.url }}" class="btn">{{ item.btn_label }}</a>
-      </div>
-    {% endfor %}
-  </div>
-{% endfor %}
+## 🚀 Featured Projects
+
+{% include feature_row id="projects" %}
+
