@@ -15,9 +15,11 @@ Here’s a selection of my projects, articles, and experiments.
 
 ---
 
----
-
-## 🚀 Featured Projects
-
-{% include feature_row id="projects" %}
+<h2>🚀 Featured Projects</h2>
+<ul>
+  {% assign apps_page = site.pages | where: "projects", true | first %}
+  {% if apps_page %}
+    {{ apps_page.content }}
+  {% endif %}
+</ul>
 
