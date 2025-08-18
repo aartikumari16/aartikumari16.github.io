@@ -2,6 +2,7 @@
 layout: single
 title: "My Apps"
 permalink: /apps/
+projects: true
 author_profile: true
 ---
 
