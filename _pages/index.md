@@ -15,16 +15,17 @@ Here’s a selection of my projects, articles, and experiments.
 
 ---
 
-## 🚀 Featured Projects
-
-### [Brain Tumor Classification](https://github.com/aartikumari16/Brain-Tumor-Classification)
-A deep learning project using **TensorFlow**, **Keras**, and **OpenCV** for medical image classification.  
-`TensorFlow` `Keras` `OpenCV`
-
 ---
 
-## 📝 Recent Posts
-{% for post in site.posts limit:2 %}
-- [{{ post.title }}]({{ post.url | relative_url }})  
-  *{{ post.date | date: "%B %d, %Y" }}* — {{ post.excerpt }}
+{% for section in site.data.features %}
+  <h2>{{ section.title }}</h2>
+  <div class="feature-cards">
+    {% for item in section.items %}
+      <div class="card">
+        <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
+        <p>{{ item.description }}</p>
+        <a href="{{ item.url }}" class="btn">{{ item.btn_label }}</a>
+      </div>
+    {% endfor %}
+  </div>
 {% endfor %}
