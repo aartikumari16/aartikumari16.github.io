@@ -7,3 +7,9 @@
   url:  https://github.com/aartikumari16/netflix-nlp-based-clustring
   desc: This project applies Unsupervised Machine Learning and NLP techniques to cluster Netflix content (movies and TV shows) based on their textual descriptions and metadata. 
   stars: false   # show star count if true
+  
+- name: Automating Port Operations using CNN
+  url:  https://github.com/aartikumari16/Automating-Port-Operations-using-CNN-Deep-Learning
+  desc: This project is an end-to-end implementation of deep learning models aimed at automating port operations through boat image classification. The primary goal is to build efficient models—one from scratch and another lightweight variant leveraging transfer learning.
+  stars: false   # show star count if true
+
