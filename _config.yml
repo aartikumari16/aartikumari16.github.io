@@ -13,6 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+
+# Site settings
+url: "https://aartikumari16.github.io"
+baseurl: ""   # keep empty since your site is at root
+
 title: Aarti Kumari – AI/ML Portfolio
 email:
 description: AI/ML enthusiast | Data Science Learner | Building cool stuff with code
