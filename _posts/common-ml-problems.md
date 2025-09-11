@@ -1,11 +1,10 @@
 ---
-layout: post
 title: "Common Machine Learning Problems Every Beginner Faces"
 date: 2025-09-11
 permalink: /blog/common-ml-problems/
-description: "Beginner-friendly guide to 15 common machine learning problems — poor data quality, imbalanced datasets, overfitting, lag features, concept drift — with simple fixes."
 tags: [machine-learning, ml-problems, data-quality, feature-engineering, time-series]
-keywords: "common machine learning problems, ML model building challenges, poor data quality, imbalanced data, overfitting, lag features, concept drift"
+categories: [common machine learning problems, ML model building challenges]
+read_time: true
 ---
 
 # Common Machine Learning Problems Every Beginner Faces
