@@ -8,7 +8,7 @@ permalink: /blog/common-ml-problems/
 read_time: true
 ---
 
-<div style="text-align: justify;">
+
 Building **machine learning models** may sound straightforward—collect data, choose an algorithm, and train. But in practice, it’s rarely that simple. Even experienced practitioners face **common machine learning problems** that can impact **accuracy**, **reliability**, and **real-world performance**. Issues like **poor data quality**, **imbalanced datasets**, **overfitting**, **wrong evaluation metrics**, or **scalability challenges** can quietly derail a project if not handled properly.  
 
 In this blog, we’ll explore the most frequent challenges in **ML model building**.
@@ -142,4 +142,4 @@ The good news is that most of these problems have solutions: **clean data, prope
 
 ***Remember***: Building a good **ML model** is not about picking the “fanciest” algorithm—it’s about solving these **practical challenges** step by step.
 
-</div>
+
