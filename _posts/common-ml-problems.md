@@ -1,9 +1,10 @@
 ---
 title: "Common Machine Learning Problems Every Beginner Faces"
 date: 2025-09-11
-permalink: /blog/common-ml-problems/
-tags: [machine-learning, ml-problems, data-quality, feature-engineering, time-series]
+author: Aarti Kumari
 categories: [common machine learning problems, ML model building challenges]
+tags: [machine-learning, ml-problems, data-quality, feature-engineering, time-series]
+permalink: /blog/common-ml-problems/
 read_time: true
 ---
 
