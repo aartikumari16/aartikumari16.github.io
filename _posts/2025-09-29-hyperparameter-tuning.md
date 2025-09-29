@@ -118,6 +118,7 @@ Output:
 Best Parameters: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
 Tuned Model Accuracy: 0.956140350877193
 </details>
+</details>
 
 ## Key Takeaway
 
