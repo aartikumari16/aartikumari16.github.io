@@ -61,7 +61,7 @@ We’ll use the **Breast Cancer dataset** and compare performance before and aft
 <details>
 <summary>📂 Load Dataset & Model Code</summary>
 
-```python
+<pre><code class="language-python">
 # Import libraries
 import pandas as pd
 from sklearn.datasets import load_breast_cancer
@@ -112,7 +112,7 @@ y_pred_best = best_model.predict(X_test)
 print("Tuned Model Accuracy:", accuracy_score(y_test, y_pred_best))
 # Output: Best Parameters: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
 # Tuned Model Accuracy: 0.956140350877193
-```
+</code></pre>
 </details>
 
 ## Key Takeaway
