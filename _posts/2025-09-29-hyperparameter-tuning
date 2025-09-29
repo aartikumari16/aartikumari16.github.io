@@ -1,5 +1,12 @@
-# Hyperparameter Tuning in Machine Learning: Boost Your Model’s Performance
-
+--- 
+title: Hyperparameter Tuning in Machine Learning: Boost Your Model’s Performance
+date: 2025-09-29
+author: Aarti Kumari
+categories: [Machine Learning]
+tags: [hyperparameter tuning, decision tree, grid search, random search, model optimization, Python]
+permalink: /blog/hyperparameter-tuning/
+read_time: true
+---
 
 Machine learning models have become powerful tools for solving problems across domains like healthcare, finance, retail, and technology. However, building an effective model is not just about choosing the right algorithm—it’s also about setting the right hyperparameters. Hyperparameter tuning is the process of finding the best configuration of these parameters to improve model performance. In this blog, we’ll explore what hyperparameters are, why tuning matters, common tuning strategies, and a hands-on example with Python.
 
