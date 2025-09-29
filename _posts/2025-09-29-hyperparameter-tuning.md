@@ -113,7 +113,6 @@ print("Tuned Model Accuracy:", accuracy_score(y_test, y_pred_best))
 # Output: Best Parameters: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
 # Tuned Model Accuracy: 0.956140350877193
 
-</details>
 
 ## Key Takeaway
 
