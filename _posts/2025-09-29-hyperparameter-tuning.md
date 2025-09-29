@@ -59,9 +59,10 @@ Without tuning, you risk drawing incorrect conclusions about which model is "bet
 We’ll use the **Breast Cancer dataset** and compare performance before and after tuning. 
 
 <details>
-<summary>📂 Load Dataset</summary>
+<summary>📂 Load Dataset & Model Code</summary>
 
 ```python
+# Import libraries
 import pandas as pd
 from sklearn.datasets import load_breast_cancer
 from sklearn.model_selection import train_test_split, GridSearchCV
@@ -77,28 +78,25 @@ y = pd.Series(data.target)
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
-</details> 
-<details> 
-<summary>📂 Baseline Model (Default Hyperparameters)</summary>
 
-# Decision Tree with defaults (can easily overfit)
+# --------------------------
+# Baseline Model (Default Hyperparameters)
+# --------------------------
 baseline_dt = DecisionTreeClassifier(random_state=42)
 baseline_dt.fit(X_train, y_train)
-
 y_pred_base = baseline_dt.predict(X_test)
 print("Baseline Accuracy:", accuracy_score(y_test, y_pred_base))
+# Output: Baseline Accuracy: 0.9473684210526315
 
-Output:
-Baseline Accuracy: 0.9473684210526315
-</details> <details> <summary>📂 Hyperparameter Tuning</summary>
-# Define parameter grid
+# --------------------------
+# Hyperparameter Tuning
+# --------------------------
 param_grid = {
     'max_depth': [3, 5, 10, None],
     'min_samples_split': [2, 5, 10, 20],
     'criterion': ['gini', 'entropy']
 }
 
-# Grid search with CV
 grid_search = GridSearchCV(
     DecisionTreeClassifier(random_state=42),
     param_grid,
@@ -109,15 +107,11 @@ grid_search = GridSearchCV(
 grid_search.fit(X_train, y_train)
 
 print("Best Parameters:", grid_search.best_params_)
-
 best_model = grid_search.best_estimator_
 y_pred_best = best_model.predict(X_test)
 print("Tuned Model Accuracy:", accuracy_score(y_test, y_pred_best))
-
-Output:
-Best Parameters: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
-Tuned Model Accuracy: 0.956140350877193
-</details>
+# Output: Best Parameters: {'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 10}
+# Tuned Model Accuracy: 0.956140350877193
 </details>
 
 ## Key Takeaway
