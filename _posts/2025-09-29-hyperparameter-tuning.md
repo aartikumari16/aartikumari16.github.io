@@ -1,5 +1,5 @@
 --- 
-title: Hyperparameter Tuning in Machine Learning: Boost Your Model’s Performance
+title: "Hyperparameter Tuning in Machine Learning: Boost Your Model’s Performance"
 date: 2025-09-29
 author: Aarti Kumari
 categories: [Machine Learning]
