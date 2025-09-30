@@ -58,6 +58,10 @@ Without tuning, you risk drawing incorrect conclusions about which model is "bet
 
 We’ll use the **Breast Cancer dataset** and compare performance before and after tuning. 
 
+![Decision Tree Code](/assets/images/1.png)
+
+![GridSearch Output](assets/images/2.png)
+
 <details>
 <summary>📂 Load Dataset & Model Code</summary>
 
