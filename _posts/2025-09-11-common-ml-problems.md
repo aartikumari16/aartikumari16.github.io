@@ -107,7 +107,7 @@ The best approach is to start with a **baseline model** (like **linear or logist
 
 Every algorithm has settings, called **hyperparameters**, that control how it learns. If they are not tuned properly, the model may underperform.
 
-You can use techniques like **Grid Search**, **Random Search**, or **Bayesian Optimization** combined with **cross-validation** to find the best settings.
+You can use [Hyperparameter Tuning](https://aartikumari16.github.io/blog/hyperparameter-tuning/) techniques like **Grid Search**, **Random Search**, or **Bayesian Optimization** combined with **cross-validation** to find the best settings.
 
 ---
 
