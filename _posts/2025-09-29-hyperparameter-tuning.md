@@ -60,7 +60,7 @@ We’ll use the **Breast Cancer dataset** and compare performance before and aft
 
 ![Decision Tree Code](/assets/images/1.png)
 
-![GridSearch Output](assets/images/2.png)
+![GridSearch Output](/assets/images/2.png)
 
 <details>
 <summary>📂 Load Dataset & Model Code</summary>
