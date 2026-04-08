@@ -8,8 +8,6 @@ permalink: /poor-data-quality-machine-learning/
 read_time: true
 ---
 
-# Poor Data Quality in Machine Learning: Why It Happens and How to Fix It
-
 Machine learning models are often judged by their algorithms, accuracy scores, and complexity. However, experienced data scientists know that **data quality matters more than the algorithm itself**.
 
 In fact, many machine learning failures are not caused by bad models but by **poor quality data**.
@@ -93,7 +91,6 @@ Datasets sometimes contain inconsistent formats such as:
 10-01-2024
 Jan 10 2024
 
-
 Models require **consistent structured data**.
 
 Cleaning and standardizing formats is an important **preprocessing step**.
@@ -137,9 +134,6 @@ import pandas as pd
 
 df['attendance'] = df['attendance'].fillna(df['attendance'].mean())
 ```
-
----
-
 ## Removing Duplicates
 
 ```python
@@ -252,7 +246,6 @@ The R² score improved from -1.18 to 0.96, showing a massive improvement in pred
 ![Model Performance Comparison](/assets/images/model-comparison.png)
 
 ---
-
 
 **Download the [dataset](https://drive.google.com/file/d/1fY2IkViEElJ3l4Fxy8SPtX2CCUL0dGoV/view?usp=sharing) and [notebook](https://colab.research.google.com/drive/16P83ji_fap28unuP0CYP7aZR17kI_nod?usp=sharing) here.**
 
