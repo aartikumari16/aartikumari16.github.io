@@ -19,7 +19,7 @@ In this blog, we’ll explore the most frequent challenges in **ML model buildin
 
 One of the biggest challenges in machine learning is working with **messy data**—full of **missing values**, **duplicates**, **typos**, or **wrong labels**. If your data isn’t reliable, your model will end up learning the wrong patterns. 
 
-A good practice is to spend time on **data cleaning**: handle missing values (either by filling them with averages or removing them), remove duplicates, and double-check labels. Remember, in ML, **better data often beats a better algorithm**.
+A good practice is to spend time on [**data cleaning**](https://aartikumari16.github.io/poor-data-quality-machine-learning/): handle missing values (either by filling them with averages or removing them), remove duplicates, and double-check labels. Remember, in ML, **better data often beats a better algorithm**.
 
 ---
 
