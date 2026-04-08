@@ -88,7 +88,9 @@ Datasets sometimes contain inconsistent formats such as:
 ### Date column example
 
 2024/01/10
+
 10-01-2024
+
 Jan 10 2024
 
 Models require **consistent structured data**.
