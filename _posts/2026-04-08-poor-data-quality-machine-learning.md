@@ -247,7 +247,9 @@ The difference in performance was dramatic:
 
 The R² score improved from -1.18 to 0.96, showing a massive improvement in prediction accuracy.
 
-![image](https://github.com/user-attachments/assets/images/model-comparison.png
+## Model Performance Comparison
+
+![Model Performance Comparison](/assets/images/model-comparison.png)
 
 ---
 
