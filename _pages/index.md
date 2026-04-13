@@ -11,8 +11,6 @@ permalink: /
 I’m **Aarti Kumari**, an AI & Machine Learning enthusiast passionate about transforming data into real-world solutions.  
 Here’s a selection of my projects, articles, and experiments.  
 
-[Work with Me](https://www.fiverr.com/aartikumari16){: .btn .btn--primary}
-
 ---
 
 <h2>🚀 Featured Projects</h2>
